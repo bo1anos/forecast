@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+    <section>  
+    <div class="main">
+        <div>
+            <ul class="searchbar">
+            <li><form id="searchform"><input type="text" id="search"><br>
+            <button type="submit" id="searchbtn">Search</button></form></li>
+            </ul>
+                <ul class="previous">
+                    <li id="search1"></li>
+                    <li id="search2"></li>
+                    <li id="search3"></li>
+                    <li id="search4"></li>
+                    <li id="search5"></li>
+                    <li id="search6"></li>
+                    <li id="search7"></li>
+                </ul>
+        </div>
+        <div class="current_day">
+            <h2 id="cityname"></h2>
+            <ul id="info">
+                <li id="temp"></li>
+                <li id="wind"></li>
+                <li id="hum"></li>
+                <li id="uvi"></li>
+                <h3 id="icon"></h3>
+            </ul>
+        </div>
+    </div>
+    <div class="forecast">
+        <ul class="card"  id="day2">
+            <li class="card-title"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="card"  id="day3">
+            <li class="card-title"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="card"  id="day4">
+            <li class="card-title"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="card"  id="day5">
+            <li class="card-title"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <ul class="card"  id="day6">
+            <li class="card-title"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    </section>  
+</main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./Assets/index.js"></script>
+</html>
